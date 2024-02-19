@@ -8,7 +8,7 @@ public class HelloWorldController {
 
     @GetMapping("/hello")
     public String sayHello() {
-        return "Deployed Using Jenkins - v1";
+        return "Deployed Using Jenkins - v2";
     }
     
 }
